@@ -5,3 +5,6 @@ export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 
 # Scripts from thoughtbot/dotfiles
 export PATH="$HOME/.bin:$PATH"
+
+# Rbenv setup
+eval "$(rbenv init - zsh --no-rehash)"
