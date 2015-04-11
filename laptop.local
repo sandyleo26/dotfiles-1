@@ -1,0 +1,5 @@
+brew_install_or_upgrade 'terminal-notifier'
+brew_install_or_upgrade 'todo-txt'
+brew_install_or_upgrade 'grc'
+
+gem_install_or_update 'rubocop'

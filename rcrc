@@ -1,0 +1,2 @@
+EXCLUDES="README.md LICENSE"
+DOTFILES_DIRS="$HOME/dev/jasonelston/dotfiles $HOME/dev/thoughtbot/dotfiles"
