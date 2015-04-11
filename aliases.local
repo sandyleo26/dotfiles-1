@@ -9,4 +9,4 @@ alias pgstart="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/serv
 alias pgstop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
 
 # Todo.txt
-alias t='/usr/local/Cellar/todo-txt/2.10/bin/todo.sh -d $HOME/Dropbox/supporting/todo.cfg'
+alias t='/usr/local/Cellar/todo-txt/2.10/bin/todo.sh -d $HOME/.todo-txt.local'
