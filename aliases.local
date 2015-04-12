@@ -10,3 +10,10 @@ alias pgstop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
 
 # Todo.txt
 alias t='/usr/local/Cellar/todo-txt/2.10/bin/todo.sh -d $HOME/.todo-txt.local'
+
+# Ruby
+alias install-missing-ruby="brew update && brew upgrade ruby-build && rbenv install"
+
+# Dotfiles and laptop build
+alias sysup="rcup && sh ~/dev/thoughtbot/laptop/mac 2>&1 | tee ~/laptop.log"
+
