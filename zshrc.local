@@ -8,3 +8,6 @@ export PATH="$HOME/.bin:$PATH"
 
 # Rbenv setup
 eval "$(rbenv init - zsh --no-rehash)"
+
+# Jump bookmarking gem setup
+source `jump-bin --zsh-integration`

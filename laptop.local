@@ -1,5 +1,7 @@
 brew_install_or_upgrade 'terminal-notifier'
 brew_install_or_upgrade 'todo-txt'
 brew_install_or_upgrade 'grc'
+brew_install_or_upgrade 'git-flow'
 
 gem_install_or_update 'rubocop'
+gem_install_or_update 'jump'
