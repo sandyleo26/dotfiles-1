@@ -11,3 +11,8 @@ eval "$(rbenv init - zsh --no-rehash)"
 
 # Jump bookmarking gem setup
 source `jump-bin --zsh-integration`
+
+# Move forward one word with alt-right arrow
+bindkey "^[f" forward-word
+# Move backward one word with alt-right arrow
+bindkey "^[b" backward-word
