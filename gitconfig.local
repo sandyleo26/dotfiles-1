@@ -3,7 +3,7 @@
 	email = jason@onezeroone.com.au
 [core]
 	quotepath = false
-	editor = atom --wait
+  editor = vim
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path =
