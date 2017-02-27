@@ -7,7 +7,7 @@ export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 export PATH="$HOME/.bin:$PATH"
 
 # Golang path setup
-export GOPATH=$HOME/go
+export GOPATH=$HOME/code/go
 export PATH=$PATH:$GOPATH/bin
 
 # Rbenv setup
