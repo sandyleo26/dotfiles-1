@@ -23,11 +23,12 @@ Install
 
 Clone onto my laptop:
 
-    git clone git://github.com/jasonelston/dotfiles.git
+    git clone https://github.com/jasonelston/dotfiles.git ~/dotfiles-local
+    git clone https://github.com/thoughtbot/dotfiles.git ~/dotfiles
 
 Install:
 
-    env RCRC=$HOME/dev/jasonelston/dotfiles/rcrc rcup
+    env RCRC=$HOME/dotfiles-local/rcrc rcup
 
 This will create symlinks for config files in my home directory.
 

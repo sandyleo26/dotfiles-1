@@ -6,13 +6,10 @@ export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 # Scripts from thoughtbot/dotfiles
 export PATH="$HOME/.bin:$PATH"
 
+# Golang path setup
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
 # Rbenv setup
 eval "$(rbenv init - zsh --no-rehash)"
-
-# Jump bookmarking gem setup
-source `jump-bin --zsh-integration`
-
-# Move forward one word with alt-right arrow
-bindkey "^[f" forward-word
-# Move backward one word with alt-right arrow
-bindkey "^[b" backward-word
+eval "$(rbenv init - --no-rehash)"
