@@ -1,5 +1,22 @@
 brew bundle --file=- <<EOF
 brew 'git-flow'
+
+# Productivity
+cask 'spectacle'
+cask 'nvalt'
+cask 'fantastical'
+cask 'skype'
+cask 'omnigraffle'
+cask 'monodraw'
+
+# Development
+cask 'visual-studio-code'
+cask 'atom'
+cask 'dash'
+cask 'github-desktop'
+cask 'vagrant'
+cask 'virtualbox'
+
 EOF
 
 gem_install_or_update 'rubocop'
