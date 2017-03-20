@@ -13,6 +13,3 @@ alias install-missing-ruby="brew update && brew upgrade ruby-build && rbenv inst
 
 # Dotfiles and laptop build
 alias sysup="rcup && sh ~/laptop/mac 2>&1 | tee ~/laptop.log"
-
-# Jump
-alias j='jump'

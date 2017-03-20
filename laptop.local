@@ -1,6 +1,4 @@
 brew bundle --file=- <<EOF
-brew 'git-flow'
-
 # Productivity
 cask 'spectacle'
 cask 'nvalt'
@@ -10,6 +8,8 @@ cask 'omnigraffle'
 cask 'monodraw'
 
 # Development
+brew 'git-flow'
+brew 'go', args: ['cross-compile-common']
 cask 'visual-studio-code'
 cask 'atom'
 cask 'dash'

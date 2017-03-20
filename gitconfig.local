@@ -3,13 +3,7 @@
 	email = jason@onezeroone.com.au
 [core]
 	quotepath = false
-  editor = vim
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path =
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+  editor = code
 [color]
 	ui = true
 [pretty]

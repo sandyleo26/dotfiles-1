@@ -3,13 +3,7 @@
 # PATH recommended by brew doctor
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 
-# Scripts from thoughtbot/dotfiles
-export PATH="$HOME/.bin:$PATH"
-
 # Golang path setup
-export GOPATH=$HOME/code/go
-export PATH=$PATH:$GOPATH/bin
-
-# Rbenv setup
-eval "$(rbenv init - zsh --no-rehash)"
-eval "$(rbenv init - --no-rehash)"
+export GOPATH=$HOME/go
+export GOROOT=/usr/local/opt/go/libexec/bin
+export PATH=$PATH:$GOPATH/bin:$GOROOT
