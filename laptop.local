@@ -16,6 +16,7 @@ cask 'dash'
 cask 'github-desktop'
 cask 'vagrant'
 cask 'virtualbox'
+brew 'pandoc'
 
 EOF
 
