@@ -17,6 +17,8 @@ cask 'github-desktop'
 cask 'vagrant'
 cask 'virtualbox'
 brew 'pandoc'
+cask 'anvil'
+cask 'dbeaver-community'
 
 EOF
 
