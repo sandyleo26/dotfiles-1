@@ -5,8 +5,8 @@ alias be="bundle exec"
 alias rr="rbenv rehash"
 
 # Postgres
-alias pgstart="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
-alias pgstop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
+alias pgstart="brew services start postgresql"
+alias pgstop="brew services stop postgresql"
 
 # Ruby
 alias install-missing-ruby="brew update && brew upgrade ruby-build && rbenv install"
