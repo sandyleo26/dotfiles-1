@@ -6,19 +6,26 @@ cask 'fantastical'
 cask 'skype'
 cask 'omnigraffle'
 cask 'monodraw'
+cask 'slack'
+cask '1password'
+cask 'whatsapp'
+cask 'skitch'
 
 # Development
-brew 'git-flow'
-brew 'go', args: ['cross-compile-common']
 cask 'visual-studio-code'
-cask 'atom'
+brew 'go', args: ['cross-compile-common']
+brew 'git-flow'
 cask 'dash'
 cask 'github-desktop'
+cask 'sourcetree'
 cask 'vagrant'
 cask 'virtualbox'
+cask 'docker'
+cask 'kitematic'
 brew 'pandoc'
-cask 'anvil'
 cask 'dbeaver-community'
+cask 'postico'
+
 
 EOF
 
