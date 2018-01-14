@@ -10,6 +10,7 @@ cask 'whatsapp'
 cask 'omnigraffle'
 cask 'monodraw'
 cask 'skitch'
+cask 'google-chrome'
 
 # Development
 cask 'visual-studio-code'
