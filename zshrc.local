@@ -8,5 +8,9 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 export PATH="$HOME/.bin:$PATH"
 
+# asdf version manager setup
 source $HOME/.asdf/asdf.sh
 source $HOME/.asdf/completions/asdf.bash
+
+# force usage of homebrew version of openssl on High Sierra
+export PATH="/usr/local/opt/openssl/bin:$PATH"
