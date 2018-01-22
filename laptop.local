@@ -2,13 +2,9 @@ brew bundle --file=- <<EOF
 # Productivity
 cask 'spectacle'
 cask '1password'
-cask 'spark'
-cask 'fantastical'
 cask 'skype'
 cask 'slack'
 cask 'whatsapp'
-cask 'omnigraffle'
-cask 'monodraw'
 cask 'skitch'
 cask 'google-chrome'
 
@@ -16,8 +12,6 @@ cask 'google-chrome'
 cask 'visual-studio-code'
 brew 'go', args: ['cross-compile-common']
 cask 'dbeaver-community'
-cask 'postico'
-cask 'dash'
 brew 'git-flow'
 cask 'github'
 cask 'sourcetree'
